@@ -38,6 +38,7 @@ test:
       block_deployment_if_fails: false
       enabled: true
       match_threshold: 0.9
+      output_dataset_id: 638497ee752be32902a2ffc8
       passing_match_rate: 85
       predictions_column: Grade 2014
     side_effects:
