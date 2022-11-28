@@ -7,4 +7,4 @@ settings:
 version:
   # Make sure this is the environment ID is in your system.
   # This one is the '[DataRobot] Python 3 Scikit-Learn Drop-In' environment
-  model_environment_id: 6239beadab92922ab790a2c0
+  model_environment_id: 5e8c889607389fe0f466c72d
