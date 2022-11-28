@@ -36,13 +36,6 @@ test:
       max_execution_time: 100
       maximum_response_time: 50
       number_of_parallel_users: 3
-    prediction_verification:
-      block_deployment_if_fails: false
-      enabled: true
-      match_threshold: 0.9
-      output_dataset_id: 638497ee752be32902a2ffc8
-      passing_match_rate: 85
-      predictions_column: Grade 2014
     side_effects:
       block_deployment_if_fails: true
       enabled: true
