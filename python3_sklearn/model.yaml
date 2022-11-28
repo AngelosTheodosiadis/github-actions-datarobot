@@ -47,8 +47,8 @@ test:
     stability:
       block_deployment_if_fails: true
       enabled: true
-      maximum_payload_size: 1000
-      minimum_payload_size: 100
+      maximum_payload_size: 100
+      minimum_payload_size: 10
       number_of_parallel_users: 1
       passing_rate: 95
       total_prediction_requests: 50
