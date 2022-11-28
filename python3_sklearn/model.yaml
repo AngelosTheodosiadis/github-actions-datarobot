@@ -1,8 +1,8 @@
 user_provided_model_id: Python 3 Scikit Learn
-target_type: Binary
+target_type: Regression
 settings:
   name: Custom Models with GH actions
-  description: Model desription
+  description: Model description
   target_name: Grade 2014
   holdout_dataset_id: 638497ee752be32902a2ffc8
   language: Python
