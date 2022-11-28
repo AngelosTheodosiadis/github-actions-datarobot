@@ -2,7 +2,7 @@ user_provided_model_id: Python 3 Scikit Learn
 target_type: Binary
 settings:
   name: Custom Models with GH actions
-  description: Mode'ls desription
+  description: Model desription
   target_name: Grade 2014
   holdout_dataset_id: 638497ee752be32902a2ffc8
   language: Python
@@ -19,11 +19,11 @@ version:
     - out/
   include_glob_pattern:
     - ./
-  memory: 100Mi
+  memory: 1Gi
   replicas: 3
 
 test:
-  memory: 100Mi
+  memory: 1Gi
   skip: false
   test_data_id: 638497ee752be32902a2ffc8
   checks:
