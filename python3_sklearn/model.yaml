@@ -20,7 +20,7 @@ version:
   include_glob_pattern:
     - ./
   memory: 1Gi
-  replicas: 3
+  replicas: 2
 
 test:
   memory: 1Gi
