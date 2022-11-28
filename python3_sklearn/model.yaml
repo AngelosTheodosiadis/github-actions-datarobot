@@ -31,8 +31,8 @@ test:
     performance:
       block_deployment_if_fails: false
       enabled: true
-      max_execution_time: 100
-      maximum_response_time: 50
+      max_execution_time: 600
+      maximum_response_time: 60
       number_of_parallel_users: 3
     prediction_verification:
       block_deployment_if_fails: false
