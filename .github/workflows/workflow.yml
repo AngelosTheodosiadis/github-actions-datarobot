@@ -27,7 +27,7 @@ jobs:
         uses: datarobot/custom-models-action@v1.1.2
         with:
           api-token: ${{ secrets.DATAROBOT_API_TOKEN }}
-          webserver: https://staging.datarobot.com/
+          webserver: https://app.datarobot.com/
           branch: master
           allow-model-deletion: true
           allow-deployment-deletion: true
