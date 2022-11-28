@@ -1,0 +1,10 @@
+user_provided_model_id: Py3 SkLearn Custom Model
+target_type: Regression
+settings:
+  name: GitHub Actions - CM Testing
+  target_name: Grade 2014
+
+version:
+  # Make sure this is the environment ID is in your system.
+  # This one is the '[DataRobot] Python 3 Scikit-Learn Drop-In' environment
+  model_environment_id: 6239beadab92922ab790a2c0

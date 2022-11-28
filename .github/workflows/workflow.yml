@@ -1,0 +1,33 @@
+name: Workflow CI/CD
+
+on:
+  pull_request:
+    branches: [ master ]
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  datarobot-custom-models-action:
+    # Run this job on any action of a PR, but skip the job upon merging to the main branch. This
+    # will be taken care of by the push event.
+    if: ${{ github.event.pull_request.merged != true }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: DataRobot Custom Models Action
+        id: datarobot-custom-models-action
+        uses: datarobot/custom-models-action@v1.1.2
+        with:
+          api-token: ${{ secrets.DATAROBOT_API_TOKEN }}
+          webserver: https://staging.datarobot.com/
+          branch: master
+          allow-model-deletion: true
+          allow-deployment-deletion: true
