@@ -31,7 +31,7 @@ test:
     performance:
       block_deployment_if_fails: false
       enabled: true
-      max_execution_time: 600
+      max_execution_time: 60
       maximum_response_time: 60
       number_of_parallel_users: 3
     prediction_verification:
@@ -50,5 +50,5 @@ test:
       maximum_payload_size: 100
       minimum_payload_size: 10
       number_of_parallel_users: 1
-      passing_rate: 80
+      passing_rate: 100
       total_prediction_requests: 50
