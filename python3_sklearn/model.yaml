@@ -1,4 +1,4 @@
-user_provided_model_id: Python 3 Scikit Learn
+user_provided_model_id: Python_3_Scikit_Learn
 target_type: Regression
 settings:
   name: Custom Models with GH actions
