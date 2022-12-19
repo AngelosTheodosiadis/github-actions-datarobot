@@ -17,5 +17,3 @@ settings:
   segment_analysis:
     enabled: true
     attributes:
-      - Host-IP
-      - Remote-IP
