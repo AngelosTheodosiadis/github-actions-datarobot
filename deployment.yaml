@@ -1,21 +1,3 @@
 user_provided_deployment_id: my-awesome-deployment-id
 user_provided_model_id: Python 3 Scikit Learn
 prediction_environment_name: "https://mlops-dev.dynamic.orm.datarobot.com"
-settings:
-  label: "My Awesome Deployment"
-  description: "This is a more detailed description."
-  importance: LOW
-  association:
-    prediction_id: Grade 2014
-    required_in_pred_request: true
-    actuals_id: Grade 2014
-    actuals_dataset_id: 638497ee752be32902a2ffc8
-  enable_target_drift: true
-  enable_feature_drift: true
-  enable_predictions_collection: true
-  enable_challenger_models: true
-  segment_analysis:
-    enabled: true
-    attributes:
-      - Host-IP
-      - Remote-IP
