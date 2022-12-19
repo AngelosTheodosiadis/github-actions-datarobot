@@ -42,7 +42,7 @@ test:
       passing_match_rate: 85
       predictions_column: Grade 2014
     side_effects:
-      block_deployment_if_fails: true
+      block_deployment_if_fails: false
       enabled: true
     stability:
       block_deployment_if_fails: true
