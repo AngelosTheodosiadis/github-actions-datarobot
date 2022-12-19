@@ -1,3 +1,3 @@
-user_provided_deployment_id: my-awesome-deployment-id
+user_provided_deployment_id: my-awesome-deployment
 user_provided_model_id: Python_3_Scikit_Learn
 prediction_environment_name: "https://mlops-dev.dynamic.orm.datarobot.com"

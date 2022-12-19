@@ -26,7 +26,7 @@ test:
   test_data_id: 638497ee752be32902a2ffc8
   checks:
     null_value_imputation:
-      block_deployment_if_fails: true
+      block_deployment_if_fails: false
       enabled: true
     performance:
       block_deployment_if_fails: false
@@ -45,7 +45,7 @@ test:
       block_deployment_if_fails: false
       enabled: true
     stability:
-      block_deployment_if_fails: true
+      block_deployment_if_fails: false
       enabled: true
       maximum_payload_size: 100
       minimum_payload_size: 10
