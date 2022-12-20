@@ -1,4 +1,4 @@
-user_provided_deployment_id: gh-actions-deployment-testing
+user_provided_deployment_id: gh-actions-testing
 user_provided_model_id: Python_3_Scikit_Learn
 prediction_environment_name: "https://datarobot-hackathon.orm.datarobot.com"
 settings:
