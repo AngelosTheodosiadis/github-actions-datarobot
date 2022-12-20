@@ -1,8 +1,8 @@
-user_provided_deployment_id: my-awesome-deployment
+user_provided_deployment_id: gh-actions-deployment-testing
 user_provided_model_id: Python_3_Scikit_Learn
-prediction_environment_name: "https://mlops-dev.dynamic.orm.datarobot.com"
+prediction_environment_name: "https://datarobot-hackathon.orm.datarobot.com"
 settings:
   label: "My Deployment's label. Has it updated after this commit?"
   description: "Add here a description of your deployment."
-  importance: HIGH
+  importance: LOW
 
