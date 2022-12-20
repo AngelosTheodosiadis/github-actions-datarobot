@@ -4,5 +4,5 @@ prediction_environment_name: "https://datarobot-hackathon.orm.datarobot.com"
 settings:
   label: "My Deployment's label. Has it updated after this commit?"
   description: "Add here a description of your deployment."
-  importance: LOW
+  importance: MODERATE
 
