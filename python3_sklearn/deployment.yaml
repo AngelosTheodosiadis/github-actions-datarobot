@@ -5,4 +5,9 @@ settings:
   label: "My Deployment's label. Has it updated after this commit?"
   description: "Add here a description of your deployment."
   importance: LOW
+  association:
+    prediction_id: Grade 2014
+    required_in_pred_request: true
+    actuals_id: Grade 2014
+    actuals_dataset_id: 638497ee752be32902a2ffc8
 
