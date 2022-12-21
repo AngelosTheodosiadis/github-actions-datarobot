@@ -10,7 +10,7 @@ settings:
     required_in_pred_request: true
     actuals_id: Grade 2014
     actuals_dataset_id: 638497ee752be32902a2ffc8
-  enable_target_drift: true
-  enable_feature_drift: true
-  enable_predictions_collection: true
+  enable_target_drift: false
+  enable_feature_drift: false
+  enable_predictions_collection: false
   enable_challenger_models: true
