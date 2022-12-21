@@ -13,4 +13,4 @@ settings:
   enable_target_drift: false
   enable_feature_drift: false
   enable_predictions_collection: false
-  enable_challenger_models: true
+  enable_challenger_models: false
