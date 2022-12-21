@@ -8,6 +8,9 @@ settings:
   association:
     prediction_id: Grade 2014
     required_in_pred_request: true
-    
+    actuals_id: ""
     actuals_dataset_id: 638497ee752be32902a2ffc8
-
+  enable_target_drift: true
+    enable_feature_drift: true
+    enable_predictions_collection: true
+    enable_challenger_models: true
