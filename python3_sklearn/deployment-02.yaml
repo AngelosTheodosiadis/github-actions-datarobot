@@ -1,4 +1,4 @@
-user_provided_deployment_id: gh-actions-testing-association
+user_provided_deployment_id: gh-actions-testing-2
 user_provided_model_id: Python_3_Scikit_Learn
 prediction_environment_name: "https://datarobot-hackathon.orm.datarobot.com"
 settings:
@@ -14,7 +14,4 @@ settings:
   enable_feature_drift: true
   enable_predictions_collection: false
   enable_challenger_models: false
-  segment_analysis:
-    enabled: false
-    attributes:
-      - DataRobot-Consumer
+  
