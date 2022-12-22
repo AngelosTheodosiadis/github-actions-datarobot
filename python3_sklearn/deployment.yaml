@@ -14,3 +14,8 @@ settings:
   enable_feature_drift: true
   enable_predictions_collection: false
   enable_challenger_models: false
+  segment_analysis:
+    enabled: false
+    attributes:
+      - Host-IP
+      - Remote-IP
