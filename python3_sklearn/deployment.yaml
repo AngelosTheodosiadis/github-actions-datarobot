@@ -17,5 +17,4 @@ settings:
   segment_analysis:
     enabled: false
     attributes:
-      - Host-IP
-      - Remote-IP
+      - Grade 2014
