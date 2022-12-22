@@ -17,4 +17,4 @@ settings:
   segment_analysis:
     enabled: false
     attributes:
-      - Grade 2014
+      - DataRobot-Consumer
