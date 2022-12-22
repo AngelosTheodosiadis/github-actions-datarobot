@@ -12,5 +12,5 @@ settings:
     actuals_dataset_id: 6389c9d8cb26c3e16b0cda7e
   enable_target_drift: true
   enable_feature_drift: true
-  enable_predictions_collection: true
+  enable_predictions_collection: false
   enable_challenger_models: false
