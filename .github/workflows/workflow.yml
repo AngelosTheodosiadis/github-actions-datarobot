@@ -30,4 +30,4 @@ jobs:
           webserver: https://app.datarobot.com/
           branch: master
           allow-model-deletion: true
-          allow-deployment-deletion: false
+          allow-deployment-deletion: true
