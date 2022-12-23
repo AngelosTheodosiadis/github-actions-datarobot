@@ -1,5 +1,5 @@
 user_provided_deployment_id: gh-actions-testing-1
-user_provided_model_id: Python_3_Scikit_Learn
+user_provided_model_id: Python_3_Scikit_Learn_01
 prediction_environment_name: "https://datarobot-hackathon.orm.datarobot.com"
 settings:
   label: "My Deployment's label. Has it updated after this commit?"
