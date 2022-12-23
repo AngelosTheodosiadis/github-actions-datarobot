@@ -1,7 +1,7 @@
-user_provided_model_id: Python_3_Scikit_Learn_02
+user_provided_model_id: Model_02
 target_type: Regression
 settings:
-  name: Custom Models with GH actions 02
+  name: Model_02
   description: Model description
   target_name: Grade 2014
   holdout_dataset_id: 638497ee752be32902a2ffc8
