@@ -2,7 +2,7 @@ user_provided_deployment_id: gh-actions-testing-2
 user_provided_model_id: Python_3_Scikit_Learn_02
 prediction_environment_name: "https://datarobot-hackathon.orm.datarobot.com"
 settings:
-  label: "My Deployment's label. Has it updated after this commit?"
+  label: "Deployment 02"
   description: "Add here a description of your deployment."
   importance: LOW
   enable_target_drift: true
