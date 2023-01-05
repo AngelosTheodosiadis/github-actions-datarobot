@@ -1,7 +1,7 @@
-user_provided_model_id: Model_01
+user_provided_model_id: My_Custom_Model_01_Angelos
 target_type: Regression
 settings:
-  name: Model_01
+  name: My_Custom_Model_01_Angelos
   description: Model description
   target_name: Grade 2014
   holdout_dataset_id: 638497ee752be32902a2ffc8
