@@ -4,9 +4,9 @@ settings:
   name: My_Custom_Model_01_Angelos
   description: Model description
   target_name: Grade 2014
-  holdout_dataset_id: 638497ee752be32902a2ffc8
+  holdout_dataset_id: 63b6c304f803dddfd6e0c0a4
   language: Python
-  training_dataset_id: 638497ee752be32902a2ffc8
+  training_dataset_id: 63b6c304f803dddfd6e0c0a4
 
 version:
   # Make sure this is the environment ID is in your system.
@@ -23,7 +23,7 @@ version:
 test:
   memory: 2Gi
   skip: false
-  test_data_id: 638497ee752be32902a2ffc8
+  test_data_id: 63b6c304f803dddfd6e0c0a4
   checks:
     null_value_imputation:
       block_deployment_if_fails: false
@@ -38,7 +38,7 @@ test:
       block_deployment_if_fails: false
       enabled: true
       match_threshold: 0.9
-      output_dataset_id: 638497ee752be32902a2ffc8
+      output_dataset_id: 63b6c304f803dddfd6e0c0a4
       passing_match_rate: 85
       predictions_column: Grade 2014
     side_effects:
