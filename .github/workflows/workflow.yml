@@ -24,7 +24,7 @@ jobs:
 
       - name: DataRobot Custom Models Action
         id: datarobot-custom-models-action
-        uses: datarobot/custom-models-action@v1.1.5
+        uses: datarobot/custom-models-action@v1.1.6
         with:
           api-token: ${{ secrets.DATAROBOT_API_TOKEN }}
           webserver: https://app.datarobot.com/
