@@ -1,5 +1,5 @@
-user_provided_deployment_id: Deployment_03_Angelos
-user_provided_model_id: My_Custom_Model_03_Angelos
+user_provided_deployment_id: Deployment_01_Angelos
+user_provided_model_id: My_Custom_Model_01_Angelos
 prediction_environment_name: "https://datarobot-hackathon.orm.datarobot.com"
 settings:
   label: "Deployment 01"
