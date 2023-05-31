@@ -27,10 +27,10 @@ test:
   checks:
     null_value_imputation:
       block_deployment_if_fails: false
-      enabled: true
+      enabled: false
     performance:
       block_deployment_if_fails: false
-      enabled: false
+      enabled: true
       max_execution_time: 600
       maximum_response_time: 60
       number_of_parallel_users: 3
