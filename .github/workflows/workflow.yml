@@ -31,3 +31,6 @@ jobs:
           branch: master
           allow-model-deletion: true
           allow-deployment-deletion: true
+
+env:
+  LOGLEVEL: debug
