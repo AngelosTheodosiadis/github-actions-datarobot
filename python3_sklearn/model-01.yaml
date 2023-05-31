@@ -22,7 +22,7 @@ version:
 
 test:
   memory: 2Gi
-  skip: true
+  skip: false
   test_data_id: 63b6c304f803dddfd6e0c0a4
   checks:
     null_value_imputation:
@@ -30,23 +30,23 @@ test:
       enabled: true
     performance:
       block_deployment_if_fails: false
-      enabled: true
+      enabled: false
       max_execution_time: 600
       maximum_response_time: 60
       number_of_parallel_users: 3
     prediction_verification:
       block_deployment_if_fails: false
-      enabled: true
+      enabled: false
       match_threshold: 0.9
       output_dataset_id: 63b6c304f803dddfd6e0c0a4
       passing_match_rate: 85
       predictions_column: Grade 2014
     side_effects:
       block_deployment_if_fails: false
-      enabled: true
+      enabled: false
     stability:
       block_deployment_if_fails: false
-      enabled: true
+      enabled: false
       maximum_payload_size: 100
       minimum_payload_size: 10
       number_of_parallel_users: 1
