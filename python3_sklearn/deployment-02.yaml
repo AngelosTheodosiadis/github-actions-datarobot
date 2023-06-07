@@ -1,0 +1,11 @@
+user_provided_deployment_id: Deployment_02_Angelos
+user_provided_model_id: My_Custom_Model_02_Angelos
+prediction_environment_name: "https://datarobot-hackathon.orm.datarobot.com"
+settings:
+  label: "Deployment 02"
+  description: "Add here a description of your deployment."
+  importance: LOW
+  enable_target_drift: true
+  enable_feature_drift: true
+  enable_predictions_collection: false
+  enable_challenger_models: false
